@@ -1,0 +1,464 @@
+#box {
+  width: 100%; }
+  #box header {
+    width: 100%;
+    height: 640px;
+    background: url(../img/1.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative; }
+    #box header nav {
+      width: 1150px;
+      margin: 0 auto;
+      padding-top: 30px; }
+      #box header nav #nav_left {
+        width: 277px;
+        padding-left: 30px;
+        height: 64px;
+        float: left; }
+        #box header nav #nav_left .nav_log {
+          display: inline-block;
+          width: 108px;
+          height: 53px;
+          padding-right: 10px;
+          margin-top: 11px;
+          background: url(../img/28.png) no-repeat -18px -377px; }
+        #box header nav #nav_left .address {
+          display: inline-block;
+          width: 60px;
+          height: 28px;
+          background: rgba(0, 0, 0, 0.5);
+          line-height: 28px;
+          text-align: center;
+          font-size: 12px;
+          color: #fff;
+          border-radius: 15px;
+          margin-top: 26px; }
+          #box header nav #nav_left .address span {
+            padding-right: 3px;
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            background: url(../img/28.png) no-repeat -185px -17px; }
+      #box header nav #nav_right {
+        width: 700px;
+        position: relative; }
+        #box header nav #nav_right .entry {
+          position: absolute;
+          height: 19px;
+          top: 0;
+          right: 0; }
+          #box header nav #nav_right .entry span {
+            display: inline-block;
+            width: 19px;
+            height: 19px;
+            background: url(../img/28.png) no-repeat -203px -17px; }
+          #box header nav #nav_right .entry a {
+            color: #FFFFFF;
+            font-size: 12px;
+            margin-left: 7px;
+            margin-top: 4px; }
+        #box header nav #nav_right .entry_ul {
+          width: 680px;
+          margin-top: 52px;
+          margin-left: 100px; }
+          #box header nav #nav_right .entry_ul li {
+            height: 20px;
+            line-height: 20px;
+            margin-left: 17px; }
+          #box header nav #nav_right .entry_ul a {
+            color: #fff;
+            font-size: 18px; }
+          #box header nav #nav_right .entry_ul .estate_a {
+            padding-left: 16px;
+            background: url(../img/lvju.png) no-repeat left center;
+            background-size: 18% 100%; }
+          #box header nav #nav_right .entry_ul .spot {
+            display: inline-block;
+            width: 8px;
+            height: 20px;
+            background: url(../img/28.png) no-repeat -225px -14px; }
+    #box header .header_h2 {
+      margin-top: 109px;
+      text-align: center;
+      font-size: 67px;
+      color: #fff; }
+    #box header .header_h3 {
+      font-size: 22px;
+      color: #fff;
+      text-align: center; }
+    #box header #find_room {
+      width: 780px;
+      margin: 40px auto;
+      position: relative; }
+      #box header #find_room ul {
+        width: 330px; }
+        #box header #find_room ul li {
+          margin-left: 15px; }
+        #box header #find_room ul li:first-child {
+          margin-left: 0; }
+        #box header #find_room ul a {
+          color: #FFFFFF;
+          font-size: 12px; }
+      #box header #find_room span {
+        position: absolute;
+        display: inline-block;
+        width: 17px;
+        height: 10px;
+        top: 34px;
+        left: 19px;
+        background: url(../img/28.png) no-repeat -252px -19px; }
+      #box header #find_room input {
+        margin-top: 20px;
+        height: 55px;
+        border: 0; }
+      #box header #find_room .input1 {
+        width: 626px;
+        height: 53px;
+        padding-left: 19px; }
+      #box header #find_room .input2 {
+        width: 130px;
+        background: #00ae66;
+        color: #FFFFFF; }
+    #box header #statement {
+      width: 100%;
+      height: 94px;
+      background: #000;
+      position: absolute;
+      bottom: 0;
+      left: 0; }
+      #box header #statement .statement_box {
+        width: 1150px;
+        margin: 0 auto;
+        padding-top: 39px; }
+        #box header #statement .statement_box .statement_Solemnly {
+          display: inline-block;
+          color: #8386b5;
+          font-size: 12px;
+          padding-right: 20px; }
+        #box header #statement .statement_box .statement_Guarantee {
+          display: inline-block;
+          color: #8386b5;
+          font-size: 12px; }
+        #box header #statement .statement_box a:hover {
+          color: #fff; }
+  #box section {
+    width: 100%; }
+    #box section #img_find_room {
+      width: 1150px;
+      padding-top: 40px;
+      margin: 0 auto; }
+      #box section #img_find_room ul {
+        width: 1150px; }
+        #box section #img_find_room ul li {
+          width: 25%;
+          height: 160px;
+          text-align: center; }
+          #box section #img_find_room ul li a {
+            display: inline-block;
+            width: 100%;
+            position: relative;
+            top: 0;
+            left: 0; }
+            #box section #img_find_room ul li a img {
+              width: 76px;
+              height: 65px;
+              margin-top: 10px; }
+            #box section #img_find_room ul li a span {
+              font-size: 18px;
+              display: inline-block;
+              width: 100%;
+              text-align: center;
+              position: absolute;
+              top: 83px;
+              left: 0; }
+            #box section #img_find_room ul li a p {
+              margin: 0 auto;
+              width: 100%;
+              text-align: center;
+              font-size: 14px;
+              color: #b0b3b4;
+              position: absolute;
+              top: 110px;
+              left: 0; }
+    #box section .app_box {
+      width: 100%;
+      height: 523px;
+      background: url(../img/9.jpg) no-repeat;
+      background-size: 100% 100%; }
+      #box section .app_box .app_content {
+        width: 1150px;
+        padding-top: 84px;
+        margin: 0 auto;
+        position: relative; }
+        #box section .app_box .app_content .titles {
+          width: 264px;
+          height: 119px;
+          background: url(../img/28.png) no-repeat -447px -379px; }
+        #box section .app_box .app_content p {
+          width: 469px;
+          height: 62px;
+          padding-top: 25px;
+          padding-bottom: 39px;
+          font-size: 14px; }
+        #box section .app_box .app_content .app_img {
+          width: 135px;
+          height: 100px; }
+          #box section .app_box .app_content .app_img .iphone {
+            display: inline-block;
+            width: 135px;
+            height: 45px;
+            margin-bottom: 6px;
+            background: url(../img/28.png) no-repeat -20px -139px; }
+          #box section .app_box .app_content .app_img .android {
+            display: inline-block;
+            width: 135px;
+            height: 45px;
+            background: url(../img/28.png) no-repeat -20px -197px; }
+        #box section .app_box .app_content .qr-code {
+          position: absolute;
+          top: 329px;
+          left: 148px; }
+    #box section .new-house {
+      width: 100%; }
+      #box section .new-house .new-word {
+        width: 1150px;
+        margin: 0 auto;
+        padding-top: 45px; }
+        #box section .new-house .new-word .house_p {
+          font-size: 30px; }
+          #box section .new-house .new-word .house_p b {
+            font-size: 30px;
+            font-weight: bold; }
+        #box section .new-house .new-word .house_span {
+          font-size: 14px;
+          color: #888888;
+          margin-top: 6px; }
+        #box section .new-house .new-word .house_a {
+          font-size: 14px;
+          color: #394043; }
+      #box section .new-house .new_img {
+        width: 1150px;
+        margin: 0 auto;
+        padding-top: 40px;
+        padding-bottom: 60px; }
+        #box section .new-house .new_img .new_ul {
+          width: 100%; }
+          #box section .new-house .new_img .new_ul li {
+            position: relative;
+            width: 350px;
+            height: 260px;
+            margin-left: 50px; }
+            #box section .new-house .new_img .new_ul li a {
+              display: inline-block;
+              overflow: hidden; }
+              #box section .new-house .new_img .new_ul li a img {
+                width: 350px;
+                height: 260px; }
+              #box section .new-house .new_img .new_ul li a img:hover {
+                transform: scale(1.3);
+                transition: 1s all ease; }
+            #box section .new-house .new_img .new_ul li p {
+              position: absolute;
+              width: 100%;
+              text-align: center;
+              font-size: 26px;
+              top: 100px;
+              left: 0;
+              color: #fff; }
+            #box section .new-house .new_img .new_ul li i {
+              position: absolute;
+              width: 100%;
+              font-size: 18px;
+              text-align: center;
+              color: #fff;
+              top: 130px;
+              left: 0; }
+          #box section .new-house .new_img .new_ul li:first-child {
+            margin-left: 0; }
+    #box section .two_room {
+      width: 100%; }
+      #box section .two_room .tworoom_word {
+        width: 1150px;
+        margin: 0 auto;
+        padding-top: 45px; }
+        #box section .two_room .tworoom_word .tworoom_p {
+          font-size: 30px; }
+          #box section .two_room .tworoom_word .tworoom_p b {
+            font-size: 30px;
+            font-weight: bold; }
+        #box section .two_room .tworoom_word .tworoom_span {
+          font-size: 14px;
+          color: #888888;
+          margin-top: 6px; }
+        #box section .two_room .tworoom_word .tworoom_a {
+          font-size: 14px;
+          color: #394043; }
+      #box section .two_room .tworoom_img {
+        width: 1150px;
+        margin: 0 auto;
+        padding-top: 40px; }
+        #box section .two_room .tworoom_img .tworoom_ul {
+          width: 100%; }
+          #box section .two_room .tworoom_img .tworoom_ul li {
+            width: 250px;
+            height: 340px;
+            margin-left: 50px; }
+            #box section .two_room .tworoom_img .tworoom_ul li .img_a {
+              display: inline-block;
+              width: 250px;
+              height: 265px;
+              border: 1px solid #acacae;
+              position: relative; }
+              #box section .two_room .tworoom_img .tworoom_ul li .img_a img {
+                width: 250px;
+                height: 192px; }
+              #box section .two_room .tworoom_img .tworoom_ul li .img_a span {
+                display: inline-block;
+                font-size: 17px;
+                padding-left: 16px;
+                margin-top: 10px; }
+              #box section .two_room .tworoom_img .tworoom_ul li .img_a b {
+                display: inline-block;
+                font-size: 12px;
+                color: #999fa8;
+                padding-left: 16px;
+                margin-top: 16px; }
+              #box section .two_room .tworoom_img .tworoom_ul li .img_a i {
+                position: absolute;
+                top: 150px;
+                left: 0;
+                display: inline-block;
+                width: 65px;
+                height: 30px;
+                background: #394043;
+                line-height: 30px;
+                text-align: center;
+                color: #FFFFFF;
+                font-weight: bold;
+                font-size: 18px; }
+            #box section .two_room .tworoom_img .tworoom_ul li .groom_a {
+              display: inline-block;
+              margin-top: 16px;
+              color: #acacae; }
+          #box section .two_room .tworoom_img .tworoom_ul li:first-child {
+            margin-left: 0; }
+    #box section .real_house {
+      width: 100%;
+      height: 240px;
+      background: url(../img/15.jpg) no-repeat;
+      background-size: 100% 100%; }
+      #box section .real_house .real_content {
+        width: 1150px;
+        margin: 0 auto;
+        padding-top: 60px;
+        position: relative; }
+        #box section .real_house .real_content .real_left {
+          width: 600px; }
+          #box section .real_house .real_content .real_left p {
+            font-size: 50px;
+            color: #FFFFFF;
+            font-weight: bold;
+            line-height: 50px; }
+          #box section .real_house .real_content .real_left h2 {
+            font-size: 50px;
+            line-height: 50px;
+            color: #fff;
+            font-weight: 100;
+            margin-top: 10px; }
+        #box section .real_house .real_content .real_right {
+          width: 550px; }
+          #box section .real_house .real_content .real_right p {
+            font-size: 18px;
+            line-height: 18px;
+            color: #fff; }
+          #box section .real_house .real_content .real_right h2 {
+            font-size: 18px;
+            line-height: 18px;
+            color: #fff;
+            margin-top: 10px; }
+          #box section .real_house .real_content .real_right input {
+            margin-top: 24px;
+            width: 100%;
+            height: 44px; }
+          #box section .real_house .real_content .real_right .query_img {
+            position: absolute;
+            top: 144px;
+            right: 10px;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: url(../img/28.png) no-repeat -408px -20px; }
+  #box footer {
+    width: 100%;
+    height: 426px;
+    background: url(../img/14.jpg) no-repeat;
+    background-size: 100% 100%; }
+    #box footer .footer_content {
+      width: 1150px;
+      margin: 0 auto; }
+      #box footer .footer_content .about_us {
+        width: 100%;
+        border-bottom: 1px solid #808486; }
+        #box footer .footer_content .about_us .about_us_ul {
+          width: 750px; }
+          #box footer .footer_content .about_us .about_us_ul li {
+            height: 76px;
+            line-height: 76px;
+            margin-left: 14px; }
+          #box footer .footer_content .about_us .about_us_ul a {
+            color: #fff;
+            font-size: 14px; }
+        #box footer .footer_content .about_us span {
+          font-size: 14px;
+          display: inline-block;
+          height: 76px;
+          line-height: 76px;
+          color: #7ac998; }
+      #box footer .footer_content .house_type {
+        width: 100%; }
+        #box footer .footer_content .house_type .house_type_ul {
+          width: 1000px; }
+          #box footer .footer_content .house_type .house_type_ul li {
+            margin-top: 10px;
+            margin-right: 10px; }
+            #box footer .footer_content .house_type .house_type_ul li a {
+              display: inline-block;
+              padding: 10px;
+              background: #000;
+              color: #888886;
+              font-size: 12px; }
+            #box footer .footer_content .house_type .house_type_ul li .active {
+              background: #394043;
+              color: #fff; }
+      #box footer .footer_content .house_introduce {
+        width: 100%;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #818587; }
+        #box footer .footer_content .house_introduce ul {
+          display: none;
+          width: 1000px;
+          margin-top: 4px; }
+          #box footer .footer_content .house_introduce ul li {
+            margin-right: 10px;
+            margin-top: 10px; }
+          #box footer .footer_content .house_introduce ul a {
+            font-size: 12px;
+            color: #818587; }
+      #box footer .footer_content .footer_copyright {
+        width: 1150px;
+        margin: 0 auto; }
+        #box footer .footer_content .footer_copyright p {
+          margin-top: 20px;
+          color: #818587;
+          font-size: 12px; }
+        #box footer .footer_content .footer_copyright a {
+          display: inline-block;
+          height: 20px;
+          line-height: 20px;
+          color: #818587;
+          padding-left: 20px;
+          font-size: 12px;
+          background: url(../img/beian.png) no-repeat left center; }
+
+/*# sourceMappingURL=lianjia.css.map */
